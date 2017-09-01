@@ -1,0 +1,181 @@
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+	font-family: Roboto-Light;
+	src: url(fonts/Roboto-Light.ttf;)
+}
+@font-face {
+	font-family: Roboto-Bold;
+	src: url(fonts/Roboto-Bold.ttf);
+}
+
+
+#header a{
+	text-decoration: none;
+	color: white;
+}
+#header{
+	background-color: #ff0000;
+	
+	height: 60px;
+	color: black;
+	font-size: 18px;
+	padding: 15px;
+	font-weight:400;
+	
+	
+}/***********************************HEADER_END*****************************/
+
+/**************************************MAIN******************************/
+#main{
+	height: 1070px;
+	
+}
+#carousel-example-generic{
+	position: absolute;
+	top: 60px;
+	margin: auto;
+	z-index: -1;
+}
+.carousel-indicators-numbers li {
+	text-indent: 0;
+	margin: 0 2px;
+	border: none;
+	border-radius: 0%;
+	line-height: 30px;
+	color: #fff;
+	background-color: #999;
+	-webkit-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+.carousel-indicators-numbers li.active, .carousel-indicators-numbers li:hover {
+	margin: 0 2px;
+	width: 35px;
+	height: 10px;
+	background-color: #ff0000;
+}
+.navbar{
+	height: 90px;
+}
+.nav{
+	margin-top: 15px;
+	font-family: Roboto-Bold;
+	font-size: 15px;
+	font-weight:900;
+	color: #ff0000;
+}
+
+.navbar-brand{
+	padding: 0 0 0 0;
+	margin-top: -13px;
+	z-index: 1;
+}
+.busket{
+	margin: -13px;
+}
+.dropdown-menu{
+	padding: 60px 20px 20px 45px;
+	width: 950px;
+	height: 380px;
+	color: white;
+	background-color: #2f2f2f;
+	z-index: 0;
+}
+.dropdown-menu a{
+	color: #d5d5d5;
+	line-height: 35px;
+}
+.dropdown-menu a:hover{
+	text-decoration: none;
+	color: #ff0000;
+}
+.text_header{
+	padding: 100px;
+	color: white;
+	font-size: 60px;
+	z-index: -1;
+}
+#main button{ /* добавили */
+	height: 50px;
+	width: 280px;
+	background-color: #ff0000;
+	border: 0;
+	box-shadow: 2px 7px 15px 0px black;
+}
+
+
+
+
+
+
+/******************************MAIN_END**************************/
+
+
+/*****************************INFO******************************/
+#info{
+	height: 365px;
+	box-shadow: 0px 0px 10px 0px;
+}
+.company_sl{
+	padding-top: 60px;
+}
+.сompany_description{
+	font-size: 22px;
+	padding: 20px;
+}
+
+
+
+#services{
+	height: 700px;
+	background-image: url(background/background_2.png);
+	background-repeat:round;
+	background-size: cove;
+	text-align: center;
+	margin: 2px;
+}
+button{ /* добавили */
+	height: 60px;
+	width: 330px;
+	background-color: #ff0000;
+	border: 0;
+	box-shadow: 2px 7px 15px 0px black;
+}
+#services h1{
+	margin: 65px;
+}
+
+
+#engraving{
+	height: 620px;	
+}
+
+#advantages{
+	text-align: center;
+}
+#equipment{
+	margin: 30px;
+	height: 480px;
+}
+#equipment img{
+	margin: 20px;
+}
+#jumbotron{
+	background-image:url(background/Layer_18.png);
+	height: 320px;
+	color: white;
+	padding: 30px
+}
+
+#jumbotron p{
+	padding: 30px;
+}
+#customers{
+	height: 540px;
+	background-image: url(background/Rectangle%2021.png);
+	
+}
+
+
